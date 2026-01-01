@@ -103,27 +103,27 @@
     # ModuleList = @()
 
     # List of all files packaged with this module
-     FileList = @('Forem.psm1, 
-     Forem.psd1, 
-     README.md, 
-     LICENSE,
-     Functions\Get-Core.ps1, 
-     Functions\Get-Crypto.ps1,
-     Functions\Get-Design.ps1, 
-     Functions\Get-DevTo.ps1, 
-     Functions\Get-DumbDevTo.ps1, 
-     Functions\Get-Forem.ps1, 
-     Functions\Get-Gamers.ps1,
-     Functions\Get-Golf.ps1, 
-     Functions\Get-HMPLJS.ps1,
-     Functions\Get-Maker.ps1,
-     Functions\Get-Music.ps1,
-     Functions\Get-OpenForem.ps1,
-     Functions\Get-Parenting.ps1,
-     Functions\Get-Popcorn.ps1,
-     Functions\Get-Scale.ps1, 
-     Functions\Get-Security.ps1,
-     Functions\Get-VibeCoding.ps1'
+     FileList = @('Forem.psm1', 
+     'Forem.psd1', 
+     'README.md', 
+     'LICENSE',
+     'Functions\Get-Core.ps1', 
+     'Functions\Get-Crypto.ps1',
+     'Functions\Get-Design.ps1', 
+     'Functions\Get-DevTo.ps1', 
+     'Functions\Get-DumbDevTo.ps1', 
+     'Functions\Get-Forem.ps1', 
+     'Functions\Get-Gamers.ps1',
+     'Functions\Get-Golf.ps1', 
+     'Functions\Get-HMPLJS.ps1',
+     'Functions\Get-Maker.ps1',
+     'Functions\Get-Music.ps1',
+     'Functions\Get-OpenForem.ps1',
+     'Functions\Get-Parenting.ps1',
+     'Functions\Get-Popcorn.ps1',
+     'Functions\Get-Scale.ps1', 
+     'Functions\Get-Security.ps1',
+     'Functions\Get-VibeCoding.ps1'
      ) 
     
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
@@ -132,7 +132,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = @(IT Professionals, News, Forem, Dev.To, Articles, AI, Crypto, Design, Development, Gaming, Golf, HMPLJS, Maker, Music, OpenForem, Parenting, Popcorn, Scale, Security, VibeCoding)
+            Tags         = @('ITProfessionals', 'News', 'Forem', 'Dev.To', 'Articles', 'AI', 'Crypto', 'Design', 'Development', 'Gaming', 'Golf', 'HMPLJS', 'Maker', 'Music', 'OpenForem', 'Parenting', 'Popcorn', 'Scale', 'Security', 'VibeCoding')
 
             # A URL to the license for this module.
             LicenseUri   = 'https://github.com/ITNinja01/Forem/blob/main/LICENSE'
