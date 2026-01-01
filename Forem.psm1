@@ -1,4 +1,4 @@
-. $PSScriptRoot\Functions\Get-Core
+. $PSScriptRoot\Functions\Get-Core.ps1
 Export-ModuleMember -Function Get-Core
 . $PSScriptRoot\Functions\Get-Crypto.ps1
 Export-ModuleMember -Function Get-Crypto
